@@ -146,24 +146,12 @@ export default function App() {
             ))}
           </div>
 
-          <div className="mt-20 p-6 sm:p-8 rounded-2xl border border-white/5 bg-white/5 backdrop-blur-sm">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="space-y-4">
-                <p className="text-gold font-serif italic text-lg">"Feito para quem exige o extraordinário."</p>
-                <p className="text-xs sm:text-sm text-gray-400 leading-relaxed">
-                  A excelência não é um resultado, é a nossa essência. Para maiores informações sobre prazos e financeiro, consulte nosso administrativo.
-                </p>
-              </div>
-              <div className="space-y-3 text-xs sm:text-sm">
-                <div className="flex items-start gap-3 text-gray-300">
-                  <MessageCircle className="w-5 h-5 text-gold shrink-0 mt-0.5" />
-                  <span>Administrativo (Beatriz ou Rayssa): <br className="sm:hidden" /><strong className="text-white">11 95954-7002</strong></span>
-                </div>
-                <div className="flex items-start gap-3 text-gray-300">
-                  <MessageCircle className="w-5 h-5 text-gold shrink-0 mt-0.5" />
-                  <span>Técnico Responsável (Davi Alberguine): <br className="sm:hidden" /><strong className="text-white">11 97849-4229</strong></span>
-                </div>
-              </div>
+          <div className="mt-20 p-6 sm:p-8 rounded-2xl border border-white/5 bg-white/5 backdrop-blur-sm text-center">
+            <div className="max-w-2xl mx-auto space-y-4">
+              <p className="text-gold font-serif italic text-lg">"Feito para quem exige o extraordinário."</p>
+              <p className="text-xs sm:text-sm text-gray-400 leading-relaxed">
+                A excelência não é um resultado, é a nossa essência. Para maiores informações sobre prazos e financeiro, consulte nosso administrativo através do WhatsApp.
+              </p>
             </div>
           </div>
           
