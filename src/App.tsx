@@ -41,17 +41,17 @@ const PRICE_LIST = [
     category: "DISSILICATO DE LÍTIO (E-MAX FRESADO)",
     note: "(O VALOR REFERE-SE AO ITEM FINALIZADO. JÁ INCLUSO MODELOS)",
     items: [
-      { name: "COROA E-MAX", price: "R$ 400,00" },
-      { name: "FACETAS/LÂMINADOS", price: "R$ 400,00" },
-      { name: "INLAY/ONLAY/OVERLAY E-MAX", price: "R$ 400,00" },
+      { name: "COROA E-MAX", price: "R$ 450,00" },
+      { name: "FACETAS/LÂMINADOS", price: "R$ 450,00" },
+      { name: "INLAY/ONLAY/OVERLAY E-MAX", price: "R$ 450,00" },
     ]
   },
   {
     category: "ZIRCÔNIA",
     note: "(O VALOR REFERE-SE AO ITEM FINALIZADO. JÁ INCLUSO MODELOS. *NAS COROAS SOBRE IMPLANTES NÃO ESTÃO INCLUSO OS COMPONENTES)",
     items: [
-      { name: "COROA SOBRE DENTE", price: "R$ 400,00" },
-      { name: "COROA SOBRE IMPLANTE", price: "R$ 400,00" },
+      { name: "COROA SOBRE DENTE", price: "R$ 450,00" },
+      { name: "COROA SOBRE IMPLANTE", price: "R$ 450,00" },
       { name: "PROTOCOLO (FINALIZADO)", price: "R$ 6.500,00" },
       { name: "ALETA", price: "R$ 150,00" },
     ]
