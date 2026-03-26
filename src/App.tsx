@@ -16,7 +16,7 @@ import {
 const WHATSAPP_URL = "https://wa.me/message/7GNWPLKR6DN5F1";
 const INSTAGRAM_URL = "https://www.instagram.com/p/DVEHukLERw9/";
 
-const WhatsAppButton = ({ className = "", text = "Falar com o Dr. Davi no WhatsApp" }) => (
+const WhatsAppButton = ({ className = "", text = "Falar com o Davi no WhatsApp" }) => (
   <a 
     href={WHATSAPP_URL} 
     target="_blank" 
@@ -106,7 +106,7 @@ export default function App() {
             Tabela de <span className="italic text-gold">Preços</span>
           </h1>
           <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto font-light">
-            Valores referenciais para os principais procedimentos realizados pelo Dr. Davi Alberguine.
+            Valores referenciais para os principais procedimentos realizados pelo Davi Alberguine.
           </p>
         </motion.div>
       </section>
@@ -165,12 +165,12 @@ export default function App() {
       <footer className="py-12 px-6 border-t border-white/5 bg-premium-black">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-serif font-bold text-gold">Dr. Davi Alberguine</h3>
+            <h3 className="text-xl font-serif font-bold text-gold">Davi Alberguine</h3>
             <p className="text-sm text-gray-500 mt-1">
               Especializado em Reabilitação Oral Estética & Laminados Cerâmicos
             </p>
             <p className="text-xs text-gray-600 mt-2 flex items-center justify-center md:justify-start gap-1">
-              <MapPin className="w-3 h-3" /> Alphaville - SP
+              <MapPin className="w-3 h-3" /> Butantã - SP
             </p>
           </div>
 
@@ -184,7 +184,7 @@ export default function App() {
           </div>
 
           <p className="text-xs text-gray-600">
-            © {new Date().getFullYear()} Dr. Davi Alberguine. Todos os direitos reservados.
+            © {new Date().getFullYear()} Davi Alberguine. Todos os direitos reservados.
           </p>
         </div>
       </footer>
