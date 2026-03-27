@@ -146,7 +146,19 @@ export default function App() {
             ))}
           </div>
 
-          <div className="mt-20 p-6 sm:p-8 rounded-2xl border border-white/5 bg-white/5 backdrop-blur-sm text-center">
+          <div className="mt-20 p-6 sm:p-8 rounded-2xl border border-gold/10 bg-gold/5 backdrop-blur-sm">
+            <div className="max-w-3xl mx-auto space-y-4">
+              <div className="flex items-center gap-2 justify-center sm:justify-start mb-2">
+                <Clock className="w-5 h-5 text-gold" />
+                <h3 className="text-gold font-bold tracking-wider uppercase text-sm">Informações de Pagamento</h3>
+              </div>
+              <p className="text-xs sm:text-sm text-gray-300 leading-relaxed text-center sm:text-left">
+                Prestamos nossos serviços ao longo de todos os dias úteis do mês. O fechamento é enviado sempre no dia 1º, com vencimento até o dia 10. Caso precise de outras formas de pagamento, como parcelamento, ficamos à disposição para alinhar a melhor opção com você.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-8 p-6 sm:p-8 rounded-2xl border border-white/5 bg-white/5 backdrop-blur-sm text-center">
             <div className="max-w-2xl mx-auto space-y-4">
               <p className="text-gold font-serif italic text-lg">"Feito para quem exige o extraordinário."</p>
               <p className="text-xs sm:text-sm text-gray-400 leading-relaxed">
