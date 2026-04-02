@@ -13,7 +13,7 @@ import {
   ChevronRight
 } from 'lucide-react';
 
-const WHATSAPP_URL = "https://wa.me/message/7GNWPLKR6DN5F1";
+const WHATSAPP_URL = "https://wa.me/5511978494229?text=Ol%C3%A1%20Davi.%20Vi%20sua%20tabela%20de%20pre%C3%A7os%20e%20gostaria%20de%20saber%20mais%20detalhes";
 const INSTAGRAM_URL = "https://www.instagram.com/p/DVEHukLERw9/";
 
 const WhatsAppButton = ({ className = "", text = "Falar com o Davi no WhatsApp" }) => (
@@ -105,8 +105,11 @@ export default function App() {
           <h1 className="text-4xl md:text-7xl font-bold mb-6 leading-tight text-premium-black">
             Tabela de <span className="italic text-gold">Preços</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto font-light">
-            Valores referenciais para os principais procedimentos realizados pelo Davi Alberguine.
+          <p className="text-xl text-gray-600 mb-2 max-w-2xl mx-auto font-light">
+            Valores referenciais para os principais procedimentos realizados pelo Alberguine Estúdio Dental.
+          </p>
+          <p className="text-[10px] text-gray-400 font-light mb-10 uppercase tracking-[0.3em]">
+            By Davi Alberguine
           </p>
         </motion.div>
       </section>
